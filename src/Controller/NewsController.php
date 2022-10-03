@@ -18,13 +18,14 @@ class NewsController extends AbstractController
     }
 
     /**
+     * Endpoint to test on browser
      * @Route("/fetch", name="fetch")
      */
-    public function fetch()
+    public function fetch(): JsonResponse
     {
-        $posts = $this->parser->parse();
+        $this->parser->parse();
 
-        return $this->json($posts);
+        return $this->json(["message" => "Parse Successful"]);
     }
 
 }
