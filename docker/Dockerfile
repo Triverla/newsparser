@@ -10,14 +10,6 @@ RUN apt-get update \
     && apt-get -y --no-install-recommends install  php7.4-mysql \
     && apt-get clean; rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* /usr/share/doc/*
 
-# Add AMQP extension
-RUN apk add \
-        --repository http://dl-cdn.alpinelinux.org/alpine/v3.6/main \
-        --no-cache \
-        rabbitmq-c-dev \
-        && pecl install amqp \
-        && docker-php-ext-enable amqp
-
 # Install git
 RUN apt-get update \
     && apt-get -y install git \
