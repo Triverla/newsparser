@@ -1,0 +1,460 @@
+2022/09/30 23:08:08 [notice] 1#1: using the "epoll" event method
+2022/09/30 23:08:08 [notice] 1#1: nginx/1.23.1
+2022/09/30 23:08:08 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/09/30 23:08:08 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/09/30 23:08:08 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/09/30 23:08:08 [notice] 1#1: start worker processes
+2022/09/30 23:08:08 [notice] 1#1: start worker process 31
+2022/09/30 23:08:08 [notice] 1#1: start worker process 32
+2022/09/30 23:08:08 [notice] 1#1: start worker process 33
+2022/09/30 23:08:08 [notice] 1#1: start worker process 34
+2022/09/30 23:08:08 [notice] 1#1: start worker process 35
+2022/09/30 23:08:08 [notice] 1#1: start worker process 36
+2022/09/30 23:08:08 [notice] 1#1: start worker process 37
+2022/09/30 23:08:08 [notice] 1#1: start worker process 38
+2022/09/30 23:09:21 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://0.0.0.0:8000/"" at /application/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135" while reading response header from upstream, client: 192.168.112.1, server: skeletonapp.local, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.112.2:9000", host: "0.0.0.0:8000"
+2022/09/30 23:09:22 [error] 31#31: *1 FastCGI sent in stderr: "PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://0.0.0.0:8000/favicon.ico" (from "http://0.0.0.0:8000/")" at /application/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135" while reading response header from upstream, client: 192.168.112.1, server: skeletonapp.local, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.112.2:9000", host: "0.0.0.0:8000", referrer: "http://0.0.0.0:8000/"
+2022/10/01 00:37:05 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/10/01 00:37:05 [notice] 31#31: gracefully shutting down
+2022/10/01 00:37:05 [notice] 32#32: gracefully shutting down
+2022/10/01 00:37:05 [notice] 33#33: gracefully shutting down
+2022/10/01 00:37:05 [notice] 34#34: gracefully shutting down
+2022/10/01 00:37:05 [notice] 34#34: exiting
+2022/10/01 00:37:05 [notice] 36#36: gracefully shutting down
+2022/10/01 00:37:05 [notice] 36#36: exiting
+2022/10/01 00:37:05 [notice] 35#35: gracefully shutting down
+2022/10/01 00:37:05 [notice] 35#35: exiting
+2022/10/01 00:37:05 [notice] 37#37: gracefully shutting down
+2022/10/01 00:37:05 [notice] 37#37: exiting
+2022/10/01 00:37:05 [notice] 38#38: gracefully shutting down
+2022/10/01 00:37:05 [notice] 38#38: exiting
+2022/10/01 00:37:05 [notice] 31#31: exiting
+2022/10/01 00:37:05 [notice] 32#32: exiting
+2022/10/01 00:37:05 [notice] 32#32: exit
+2022/10/01 00:37:05 [notice] 33#33: exiting
+2022/10/01 00:37:05 [notice] 34#34: exit
+2022/10/01 00:37:05 [notice] 36#36: exit
+2022/10/01 00:37:05 [notice] 35#35: exit
+2022/10/01 00:37:05 [notice] 37#37: exit
+2022/10/01 00:37:05 [notice] 38#38: exit
+2022/10/01 00:37:05 [notice] 31#31: exit
+2022/10/01 00:37:05 [notice] 33#33: exit
+2022/10/01 00:37:05 [notice] 1#1: signal 17 (SIGCHLD) received from 37
+2022/10/01 00:37:05 [notice] 1#1: worker process 34 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: worker process 37 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 00:37:05 [notice] 1#1: signal 17 (SIGCHLD) received from 36
+2022/10/01 00:37:05 [notice] 1#1: worker process 31 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: worker process 32 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: worker process 35 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: worker process 36 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: worker process 38 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: signal 29 (SIGIO) received
+2022/10/01 00:37:05 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/01 00:37:05 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/10/01 00:37:05 [notice] 1#1: worker process 33 exited with code 0
+2022/10/01 00:37:05 [notice] 1#1: exit
+2022/10/01 00:42:56 [notice] 1#1: using the "epoll" event method
+2022/10/01 00:42:56 [notice] 1#1: nginx/1.23.1
+2022/10/01 00:42:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 00:42:56 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 00:42:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 00:42:56 [notice] 1#1: start worker processes
+2022/10/01 00:42:56 [notice] 1#1: start worker process 31
+2022/10/01 00:42:56 [notice] 1#1: start worker process 32
+2022/10/01 00:42:56 [notice] 1#1: start worker process 33
+2022/10/01 00:42:56 [notice] 1#1: start worker process 34
+2022/10/01 00:42:56 [notice] 1#1: start worker process 35
+2022/10/01 00:42:56 [notice] 1#1: start worker process 36
+2022/10/01 00:42:56 [notice] 1#1: start worker process 37
+2022/10/01 00:42:56 [notice] 1#1: start worker process 38
+2022/10/01 01:14:56 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2022/10/01 01:14:56 [notice] 35#35: exiting
+2022/10/01 01:14:56 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/10/01 01:14:56 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/10/01 01:14:56 [notice] 32#32: exiting
+2022/10/01 07:48:39 [notice] 1#1: using the "epoll" event method
+2022/10/01 07:48:39 [notice] 1#1: nginx/1.23.1
+2022/10/01 07:48:39 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 07:48:39 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 07:48:39 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 07:48:39 [notice] 1#1: start worker processes
+2022/10/01 07:48:39 [notice] 1#1: start worker process 30
+2022/10/01 07:48:39 [notice] 1#1: start worker process 31
+2022/10/01 07:48:39 [notice] 1#1: start worker process 32
+2022/10/01 07:48:39 [notice] 1#1: start worker process 33
+2022/10/01 07:48:39 [notice] 1#1: start worker process 34
+2022/10/01 07:48:39 [notice] 1#1: start worker process 35
+2022/10/01 07:48:39 [notice] 1#1: start worker process 36
+2022/10/01 07:48:39 [notice] 1#1: start worker process 37
+2022/10/01 09:27:00 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:27:00 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:27:00 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:27:00 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 09:27:00 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:27:00 [notice] 1#1: start worker processes
+2022/10/01 09:27:00 [notice] 1#1: start worker process 31
+2022/10/01 09:27:00 [notice] 1#1: start worker process 32
+2022/10/01 09:27:00 [notice] 1#1: start worker process 33
+2022/10/01 09:27:00 [notice] 1#1: start worker process 34
+2022/10/01 09:27:00 [notice] 1#1: start worker process 35
+2022/10/01 09:27:00 [notice] 1#1: start worker process 36
+2022/10/01 09:27:00 [notice] 1#1: start worker process 37
+2022/10/01 09:27:00 [notice] 1#1: start worker process 38
+2022/10/01 09:44:52 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:44:52 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:44:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:44:52 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 09:44:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:44:52 [notice] 1#1: start worker processes
+2022/10/01 09:44:52 [notice] 1#1: start worker process 30
+2022/10/01 09:44:52 [notice] 1#1: start worker process 31
+2022/10/01 09:44:52 [notice] 1#1: start worker process 32
+2022/10/01 09:44:52 [notice] 1#1: start worker process 33
+2022/10/01 09:44:52 [notice] 1#1: start worker process 34
+2022/10/01 09:44:52 [notice] 1#1: start worker process 35
+2022/10/01 09:44:52 [notice] 1#1: start worker process 36
+2022/10/01 09:44:52 [notice] 1#1: start worker process 37
+2022/10/01 09:47:55 [notice] 1#1: using the "epoll" event method
+2022/10/01 09:47:55 [notice] 1#1: nginx/1.23.1
+2022/10/01 09:47:55 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 09:47:55 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 09:47:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 09:47:55 [notice] 1#1: start worker processes
+2022/10/01 09:47:55 [notice] 1#1: start worker process 31
+2022/10/01 09:47:55 [notice] 1#1: start worker process 32
+2022/10/01 09:47:55 [notice] 1#1: start worker process 33
+2022/10/01 09:47:55 [notice] 1#1: start worker process 34
+2022/10/01 09:47:55 [notice] 1#1: start worker process 35
+2022/10/01 09:47:55 [notice] 1#1: start worker process 36
+2022/10/01 09:47:55 [notice] 1#1: start worker process 37
+2022/10/01 09:47:55 [notice] 1#1: start worker process 38
+2022/10/01 14:37:12 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 32#32: exiting
+2022/10/01 14:37:12 [notice] 32#32: exit
+2022/10/01 14:37:12 [notice] 37#37: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 37#37: exiting
+2022/10/01 14:37:12 [notice] 35#35: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 35#35: exiting
+2022/10/01 14:37:12 [notice] 38#38: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 31#31: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 31#31: exiting
+2022/10/01 14:37:12 [notice] 1#1: signal 15 (SIGTERM) received, exiting
+2022/10/01 14:37:12 [notice] 1#1: signal 17 (SIGCHLD) received from 32
+2022/10/01 16:22:58 [notice] 1#1: using the "epoll" event method
+2022/10/01 16:22:58 [notice] 1#1: nginx/1.23.1
+2022/10/01 16:22:58 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 16:22:58 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 16:22:58 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 16:22:58 [notice] 1#1: start worker processes
+2022/10/01 16:22:58 [notice] 1#1: start worker process 30
+2022/10/01 16:22:58 [notice] 1#1: start worker process 31
+2022/10/01 16:22:58 [notice] 1#1: start worker process 32
+2022/10/01 16:22:58 [notice] 1#1: start worker process 33
+2022/10/01 16:22:58 [notice] 1#1: start worker process 34
+2022/10/01 16:22:58 [notice] 1#1: start worker process 35
+2022/10/01 16:22:58 [notice] 1#1: start worker process 36
+2022/10/01 16:22:58 [notice] 1#1: start worker process 37
+2022/10/01 17:39:47 [notice] 32#32: signal 15 (SIGTERM) received, exiting
+2022/10/01 17:39:47 [notice] 32#32: exiting
+2022/10/01 22:29:52 [notice] 1#1: using the "epoll" event method
+2022/10/01 22:29:52 [notice] 1#1: nginx/1.23.1
+2022/10/01 22:29:52 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 22:29:52 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 22:29:52 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 22:29:52 [notice] 1#1: start worker processes
+2022/10/01 22:29:52 [notice] 1#1: start worker process 30
+2022/10/01 22:29:52 [notice] 1#1: start worker process 31
+2022/10/01 22:29:52 [notice] 1#1: start worker process 32
+2022/10/01 22:29:52 [notice] 1#1: start worker process 33
+2022/10/01 22:29:52 [notice] 1#1: start worker process 34
+2022/10/01 22:29:52 [notice] 1#1: start worker process 35
+2022/10/01 22:29:52 [notice] 1#1: start worker process 36
+2022/10/01 22:29:52 [notice] 1#1: start worker process 37
+2022/10/01 22:41:04 [notice] 1#1: using the "epoll" event method
+2022/10/01 22:41:04 [notice] 1#1: nginx/1.23.1
+2022/10/01 22:41:04 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 22:41:04 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 22:41:04 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 22:41:04 [notice] 1#1: start worker processes
+2022/10/01 22:41:04 [notice] 1#1: start worker process 31
+2022/10/01 22:41:04 [notice] 1#1: start worker process 32
+2022/10/01 22:41:04 [notice] 1#1: start worker process 33
+2022/10/01 22:41:04 [notice] 1#1: start worker process 34
+2022/10/01 22:41:04 [notice] 1#1: start worker process 35
+2022/10/01 22:41:04 [notice] 1#1: start worker process 36
+2022/10/01 22:41:04 [notice] 1#1: start worker process 37
+2022/10/01 22:41:04 [notice] 1#1: start worker process 38
+2022/10/01 22:43:57 [notice] 1#1: using the "epoll" event method
+2022/10/01 22:43:57 [notice] 1#1: nginx/1.23.1
+2022/10/01 22:43:57 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 22:43:57 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 22:43:57 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 22:43:57 [notice] 1#1: start worker processes
+2022/10/01 22:43:57 [notice] 1#1: start worker process 31
+2022/10/01 22:43:57 [notice] 1#1: start worker process 32
+2022/10/01 22:43:57 [notice] 1#1: start worker process 33
+2022/10/01 22:43:57 [notice] 1#1: start worker process 34
+2022/10/01 22:43:57 [notice] 1#1: start worker process 35
+2022/10/01 22:43:57 [notice] 1#1: start worker process 36
+2022/10/01 22:43:57 [notice] 1#1: start worker process 37
+2022/10/01 22:43:57 [notice] 1#1: start worker process 38
+2022/10/01 22:46:35 [notice] 1#1: using the "epoll" event method
+2022/10/01 22:46:35 [notice] 1#1: nginx/1.23.1
+2022/10/01 22:46:35 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/01 22:46:35 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/01 22:46:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/01 22:46:35 [notice] 1#1: start worker processes
+2022/10/01 22:46:35 [notice] 1#1: start worker process 32
+2022/10/01 22:46:35 [notice] 1#1: start worker process 33
+2022/10/01 22:46:35 [notice] 1#1: start worker process 34
+2022/10/01 22:46:35 [notice] 1#1: start worker process 35
+2022/10/01 22:46:35 [notice] 1#1: start worker process 36
+2022/10/01 22:46:35 [notice] 1#1: start worker process 37
+2022/10/01 22:46:35 [notice] 1#1: start worker process 38
+2022/10/01 22:46:35 [notice] 1#1: start worker process 39
+2022/10/02 01:19:53 [notice] 1#1: using the "epoll" event method
+2022/10/02 01:19:53 [notice] 1#1: nginx/1.23.1
+2022/10/02 01:19:53 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 01:19:53 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 01:19:53 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 01:19:53 [notice] 1#1: start worker processes
+2022/10/02 01:19:53 [notice] 1#1: start worker process 31
+2022/10/02 01:19:53 [notice] 1#1: start worker process 32
+2022/10/02 01:19:53 [notice] 1#1: start worker process 33
+2022/10/02 01:19:53 [notice] 1#1: start worker process 34
+2022/10/02 01:19:53 [notice] 1#1: start worker process 35
+2022/10/02 01:19:53 [notice] 1#1: start worker process 36
+2022/10/02 01:19:53 [notice] 1#1: start worker process 37
+2022/10/02 01:19:53 [notice] 1#1: start worker process 38
+2022/10/02 02:03:36 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://0.0.0.0:8000/"" at /application/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::logKernelException".
+PHP message: [debug] Notified event "kernel.exception" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelException" stopped propagation of the event "kernel.exception".
+PHP message: [debug] Listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onKernelException" was not called for event "kernel.exception".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ResponseListener::onKernelResponse".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::removeCspHeader".
+PHP message: [debug] Notified event "kernel.response" to listener "Symfony\Component\HttpKernel\EventListener\DisallowR
+2022/10/02 02:03:37 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://0.0.0.0:8000/favicon.ico" (from "http://0.0.0.0:8000/")" at /application/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel
+2022/10/02 02:03:43 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "fetch".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception RuntimeException: ""chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers"." at /application/vendor/symfony/panther/src/ProcessManager/ChromeManager.php line 92
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefault
+2022/10/02 02:04:34 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "fetch".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception RuntimeException: ""chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers"." at /application/vendor/symfony/panther/src/ProcessManager/ChromeManager.php line 92
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefault
+2022/10/02 02:04:54 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "fetch".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception RuntimeException: ""chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers"." at /application/vendor/symfony/panther/src/ProcessManager/ChromeManager.php line 92
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefault
+2022/10/02 02:04:57 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "fetch".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception RuntimeException: ""chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers"." at /application/vendor/symfony/panther/src/ProcessManager/ChromeManager.php line 92
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefault
+2022/10/02 02:05:02 [error] 32#32: *1 FastCGI sent in stderr: "PHP message: [info] Matched route "fetch".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefaultLocale".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\RouterListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.controller_arguments" to listener "Symfony\Component\HttpKernel\EventListener\ErrorListener::onControllerArguments".
+PHP message: [critical] Uncaught PHP Exception RuntimeException: ""chromedriver" binary not found. Install it using the package manager of your operating system or by running "composer require --dev dbrekelmans/bdi && vendor/bin/bdi detect drivers"." at /application/vendor/symfony/panther/src/ProcessManager/ChromeManager.php line 92
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\DebugHandlersListener::configure".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\ValidateRequestListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\SessionListener::onKernelRequest".
+PHP message: [debug] Notified event "kernel.request" to listener "Symfony\Component\HttpKernel\EventListener\LocaleListener::setDefault
+2022/10/02 12:43:13 [notice] 1#1: using the "epoll" event method
+2022/10/02 12:43:13 [notice] 1#1: nginx/1.23.1
+2022/10/02 12:43:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 12:43:13 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 12:43:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 12:43:13 [notice] 1#1: start worker processes
+2022/10/02 12:43:13 [notice] 1#1: start worker process 31
+2022/10/02 12:43:13 [notice] 1#1: start worker process 32
+2022/10/02 12:43:13 [notice] 1#1: start worker process 33
+2022/10/02 12:43:13 [notice] 1#1: start worker process 34
+2022/10/02 12:43:13 [notice] 1#1: start worker process 35
+2022/10/02 12:43:13 [notice] 1#1: start worker process 36
+2022/10/02 12:43:13 [notice] 1#1: start worker process 37
+2022/10/02 12:43:13 [notice] 1#1: start worker process 38
+2022/10/02 12:47:38 [notice] 1#1: using the "epoll" event method
+2022/10/02 12:47:38 [notice] 1#1: nginx/1.23.1
+2022/10/02 12:47:38 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 12:47:38 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 12:47:38 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 12:47:38 [notice] 1#1: start worker processes
+2022/10/02 12:47:38 [notice] 1#1: start worker process 31
+2022/10/02 12:47:38 [notice] 1#1: start worker process 32
+2022/10/02 12:47:38 [notice] 1#1: start worker process 33
+2022/10/02 12:47:38 [notice] 1#1: start worker process 34
+2022/10/02 12:47:38 [notice] 1#1: start worker process 35
+2022/10/02 12:47:38 [notice] 1#1: start worker process 36
+2022/10/02 12:47:38 [notice] 1#1: start worker process 37
+2022/10/02 12:47:38 [notice] 1#1: start worker process 38
+2022/10/02 13:14:46 [notice] 1#1: using the "epoll" event method
+2022/10/02 13:14:46 [notice] 1#1: nginx/1.23.1
+2022/10/02 13:14:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 13:14:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 13:14:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 13:14:46 [notice] 1#1: start worker processes
+2022/10/02 13:14:46 [notice] 1#1: start worker process 31
+2022/10/02 13:14:46 [notice] 1#1: start worker process 32
+2022/10/02 13:14:46 [notice] 1#1: start worker process 33
+2022/10/02 13:14:46 [notice] 1#1: start worker process 34
+2022/10/02 13:14:46 [notice] 1#1: start worker process 35
+2022/10/02 13:14:46 [notice] 1#1: start worker process 36
+2022/10/02 13:14:46 [notice] 1#1: start worker process 37
+2022/10/02 13:14:46 [notice] 1#1: start worker process 38
+2022/10/02 13:48:42 [notice] 1#1: using the "epoll" event method
+2022/10/02 13:48:42 [notice] 1#1: nginx/1.23.1
+2022/10/02 13:48:42 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 13:48:42 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 13:48:42 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 13:48:42 [notice] 1#1: start worker processes
+2022/10/02 13:48:42 [notice] 1#1: start worker process 30
+2022/10/02 13:48:42 [notice] 1#1: start worker process 31
+2022/10/02 13:48:42 [notice] 1#1: start worker process 32
+2022/10/02 13:48:42 [notice] 1#1: start worker process 33
+2022/10/02 13:48:42 [notice] 1#1: start worker process 34
+2022/10/02 13:48:42 [notice] 1#1: start worker process 35
+2022/10/02 13:48:42 [notice] 1#1: start worker process 36
+2022/10/02 13:48:42 [notice] 1#1: start worker process 37
+2022/10/02 13:50:22 [notice] 1#1: using the "epoll" event method
+2022/10/02 13:50:22 [notice] 1#1: nginx/1.23.1
+2022/10/02 13:50:22 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 13:50:22 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 13:50:22 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 13:50:22 [notice] 1#1: start worker processes
+2022/10/02 13:50:22 [notice] 1#1: start worker process 31
+2022/10/02 13:50:22 [notice] 1#1: start worker process 32
+2022/10/02 13:50:22 [notice] 1#1: start worker process 33
+2022/10/02 13:50:22 [notice] 1#1: start worker process 34
+2022/10/02 13:50:22 [notice] 1#1: start worker process 35
+2022/10/02 13:50:22 [notice] 1#1: start worker process 36
+2022/10/02 13:50:22 [notice] 1#1: start worker process 37
+2022/10/02 13:50:22 [notice] 1#1: start worker process 38
+2022/10/02 14:46:34 [notice] 1#1: using the "epoll" event method
+2022/10/02 14:46:34 [notice] 1#1: nginx/1.23.1
+2022/10/02 14:46:34 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 14:46:34 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 14:46:34 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 14:46:34 [notice] 1#1: start worker processes
+2022/10/02 14:46:34 [notice] 1#1: start worker process 31
+2022/10/02 14:46:34 [notice] 1#1: start worker process 32
+2022/10/02 14:46:34 [notice] 1#1: start worker process 33
+2022/10/02 14:46:34 [notice] 1#1: start worker process 34
+2022/10/02 14:46:34 [notice] 1#1: start worker process 35
+2022/10/02 14:46:34 [notice] 1#1: start worker process 36
+2022/10/02 14:46:34 [notice] 1#1: start worker process 37
+2022/10/02 14:46:34 [notice] 1#1: start worker process 38
+2022/10/02 16:31:43 [notice] 1#1: using the "epoll" event method
+2022/10/02 16:31:43 [notice] 1#1: nginx/1.23.1
+2022/10/02 16:31:43 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 16:31:43 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 16:31:43 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 16:31:43 [notice] 1#1: start worker processes
+2022/10/02 16:31:43 [notice] 1#1: start worker process 31
+2022/10/02 16:31:43 [notice] 1#1: start worker process 32
+2022/10/02 16:31:43 [notice] 1#1: start worker process 33
+2022/10/02 16:31:43 [notice] 1#1: start worker process 34
+2022/10/02 16:31:43 [notice] 1#1: start worker process 35
+2022/10/02 16:31:43 [notice] 1#1: start worker process 36
+2022/10/02 16:31:43 [notice] 1#1: start worker process 37
+2022/10/02 16:31:43 [notice] 1#1: start worker process 38
+2022/10/02 21:14:07 [notice] 1#1: using the "epoll" event method
+2022/10/02 21:14:07 [notice] 1#1: nginx/1.23.1
+2022/10/02 21:14:07 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/02 21:14:07 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/02 21:14:07 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/02 21:14:07 [notice] 1#1: start worker processes
+2022/10/02 21:14:07 [notice] 1#1: start worker process 30
+2022/10/02 21:14:07 [notice] 1#1: start worker process 31
+2022/10/02 21:14:07 [notice] 1#1: start worker process 32
+2022/10/02 21:14:07 [notice] 1#1: start worker process 33
+2022/10/02 21:14:07 [notice] 1#1: start worker process 34
+2022/10/02 21:14:07 [notice] 1#1: start worker process 35
+2022/10/02 21:14:07 [notice] 1#1: start worker process 36
+2022/10/02 21:14:07 [notice] 1#1: start worker process 37
+2022/10/03 00:34:46 [notice] 1#1: using the "epoll" event method
+2022/10/03 00:34:46 [notice] 1#1: nginx/1.23.1
+2022/10/03 00:34:46 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/03 00:34:46 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/03 00:34:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/03 00:34:46 [notice] 1#1: start worker processes
+2022/10/03 00:34:46 [notice] 1#1: start worker process 30
+2022/10/03 00:34:46 [notice] 1#1: start worker process 31
+2022/10/03 00:34:46 [notice] 1#1: start worker process 32
+2022/10/03 00:34:46 [notice] 1#1: start worker process 33
+2022/10/03 00:34:46 [notice] 1#1: start worker process 34
+2022/10/03 00:34:46 [notice] 1#1: start worker process 35
+2022/10/03 00:34:46 [notice] 1#1: start worker process 36
+2022/10/03 00:34:46 [notice] 1#1: start worker process 37
+2022/10/03 01:22:25 [notice] 1#1: using the "epoll" event method
+2022/10/03 01:22:25 [notice] 1#1: nginx/1.23.1
+2022/10/03 01:22:25 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/10/03 01:22:25 [notice] 1#1: OS: Linux 5.10.76-linuxkit
+2022/10/03 01:22:25 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/10/03 01:22:25 [notice] 1#1: start worker processes
+2022/10/03 01:22:25 [notice] 1#1: start worker process 30
+2022/10/03 01:22:25 [notice] 1#1: start worker process 31
+2022/10/03 01:22:25 [notice] 1#1: start worker process 32
+2022/10/03 01:22:25 [notice] 1#1: start worker process 33
+2022/10/03 01:22:25 [notice] 1#1: start worker process 34
+2022/10/03 01:22:25 [notice] 1#1: start worker process 35
+2022/10/03 01:22:25 [notice] 1#1: start worker process 36
+2022/10/03 01:22:25 [notice] 1#1: start worker process 37
