@@ -1,8 +1,8 @@
 # News Parser Using Symfony, Docker & RabbitMq
 
 ## Configuration
-``cd docker`` from application root
-Get docker up and running
+``cd docker`` from application root \
+To get docker up and running \
 ``docker compose up``
 
 ## Run Migrations
@@ -13,11 +13,11 @@ Get docker up and running
 ``php bin/console doctrine:fixtures:load``
 
 ## Test Login Credentials
-Admin
+Admin[Admin Role]
 ``Email: admin@newsparser.com`` \
 ``Password: password``
 
-Moderator
+Moderator[Moderator Role]
 ``Email: moderator@newsparser.com`` \
 ``Password: password``
 
