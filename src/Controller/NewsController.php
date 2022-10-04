@@ -5,6 +5,7 @@ namespace App\Controller;
 use App\Actions\Parser;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
+use Symfony\Component\HttpFoundation\Response;
 use Symfony\Component\Routing\Annotation\Route;
 
 class NewsController extends AbstractController
@@ -26,6 +27,14 @@ class NewsController extends AbstractController
         $this->parser->parse();
 
         return $this->json(["message" => "Parse Successful"]);
+    }
+
+    /**
+     * @Route("/", name="index")
+     */
+    public function index(): Response
+    {
+        return $this->render('index.html.twig');
     }
 
 }

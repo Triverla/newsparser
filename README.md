@@ -9,6 +9,9 @@ Get docker up and running
 ``php bin/console make:migration`` \
 ``php bin/console doctrine:migrations:migrate``
 
+## Run Seeder
+``php bin/console doctrine:fixtures:load``
+
 ## Test Login Credentials
 Admin
 ``Email: admin@newsparser.com`` \
@@ -29,6 +32,6 @@ then run
 ``php bin/console parse:news `` to parse news
 
 ## Run Queue
-``symfony console messenger:consume async -vv``
+``php bin/console messenger:consume async -vv``
 
 Good to go!

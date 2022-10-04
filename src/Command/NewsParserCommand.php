@@ -44,9 +44,9 @@ class NewsParserCommand extends Command
 
         $posts = $this->parser->parse();
 
-        $output->writeln($posts->toArray());
+        $output->writeln($posts);
 
-        $io->success('You have a new command! Now make it your own! Pass --help to see your options.');
+        $io->success('Parsing completed');
 
         return Command::SUCCESS;
     }

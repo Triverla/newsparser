@@ -54,11 +54,11 @@ class Parser
             $post->setImage($image[1][1]);
 
             $this->bus->dispatch(new ParseNews($post));
-            //$collection[] = $post;
+            $collection[] = $post;
         });
 
 
-       // return $collection;
+       return $collection;
     }
 
     /**
